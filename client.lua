@@ -8,7 +8,7 @@ Citizen.CreateThread(function()
     Michael.LoadDefault()
 
     -- Simeon: -47.16170 -1115.3327 26.5
-    Simeon.LoadDefault()
+    Simeon.LoadDefault()--PDM (Commit this out if you're using Gabz Hub)
 
     -- Franklin's aunt: -9.96562, -1438.54, 31.1015
     FranklinAunt.LoadDefault()
@@ -26,7 +26,7 @@ Citizen.CreateThread(function()
     BahamaMamas.Enable(true)
 
     -- Pillbox hospital: 307.1680, -590.807, 43.280
-    PillboxHospital.Enable(true)
+    PillboxHospital.Enable(false)--Pillbox map is installed by default when installing QB-Core. Check [default-maps] for the map.
 
     -- Zancudo Gates (GTAO like): -1600.30100000, 2806.73100000, 18.79683000
     ZancudoGates.LoadDefault()
